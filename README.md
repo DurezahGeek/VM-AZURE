@@ -7,8 +7,11 @@
 Acesse o portal do Azure: https://portal.azure.com
 
 Na barra de pesquisa, digite **Resource Group** e clique em **Create**.
+![VM](https://github.com/DurezahGeek/VM-AZURE/blob/main/srcAZ/1.png)
+
 
 **Preencha:**
+![VM](https://github.com/DurezahGeek/VM-AZURE/blob/main/srcAZ/2.png)
 - **Subscription (Assinatura):** selecione a sua.
 - **Resource Group name:** exemplo `az104-rg8`.
 - **Region:** escolha uma região próxima dos seus usuários ou exigida pelo projeto (ex: Brazil South).
@@ -21,8 +24,10 @@ Na barra de pesquisa, digite **Resource Group** e clique em **Create**.
 ### 2. Criar a Máquina Virtual
 
 No portal, pesquise por **Virtual Machine** e clique em **Create > Azure virtual machine**.
+![VM](https://github.com/DurezahGeek/VM-AZURE/blob/main/srcAZ/3.png)
 
 **Na aba Basics, preencha:**
+![VM](https://github.com/DurezahGeek/VM-AZURE/blob/main/srcAZ/4.png)
 - **Subscription:** mesma usada no Resource Group.
 - **Resource group:** selecione `az104-rg8`.
 - **Virtual machine name:** exemplo `az104-vm1`.
@@ -37,7 +42,7 @@ No portal, pesquise por **Virtual Machine** e clique em **Create > Azure virtual
 ---
 
 ### 3. Outras Configurações
-
+![VM](https://github.com/DurezahGeek/VM-AZURE/blob/main/srcAZ/5.png)
 - **Disks:** deixe como padrão (geralmente Premium SSD).
 - **Networking:** padrão para teste; para produção, configure VNet e NSG.
 - **Management:** habilite **Boot diagnostics** se desejar monitoramento da inicialização.
@@ -56,9 +61,13 @@ No portal, pesquise por **Virtual Machine** e clique em **Create > Azure virtual
 ### 5. Redimensionar a Máquina Virtual (Resize)
 
 - Após a criação da VM `az104-vm1`, clique na máquina.
+![VM](https://github.com/DurezahGeek/VM-AZURE/blob/main/srcAZ/6.png)
 - Acesse o menu lateral e clique em **Size (Tamanho)**.
+![VM](https://github.com/DurezahGeek/VM-AZURE/blob/main/srcAZ/7.png)
 - Será exibido o tamanho atual da VM e uma lista de opções disponíveis.
+![VM](https://github.com/DurezahGeek/VM-AZURE/blob/main/srcAZ/8.png)
 - Escolha o novo tamanho (ex: o primeiro da lista) e clique em **Resize**.
+![VM](https://github.com/DurezahGeek/VM-AZURE/blob/main/srcAZ/9.png)
 
 ⚠️ **Atenção:** Se a VM estiver ligada, será reiniciada automaticamente para aplicar o novo tamanho.
 
@@ -69,8 +78,9 @@ No portal, pesquise por **Virtual Machine** e clique em **Create > Azure virtual
 - No menu lateral da VM `az104-vm1`, clique em **Disks**.
 
 Você verá duas opções principais:
-- 🔴 **Attach an existing disk:** Vincular um disco que já foi criado anteriormente.
-- 🟢 **Create and attach a new disk:** Criar e anexar um novo disco à VM.
+- 🔴 **Create and attach a new disk:** Criar e anexar um novo disco à VM.
+- 🟢🔧 **Alterar o tipo de armazenamento (Storage Type):** Após anexar um disco, clique sobre o nome dele na aba *Disks* para abrir as configurações. Na opção **Storage type**, você poderá alterar o tipo de disco, como de *Premium SSD* para *Standard HDD*, conforme a necessidade de desempenho e custo.
+![VM](https://github.com/DurezahGeek/VM-AZURE/blob/main/srcAZ/10.png)
 
 Ao criar um novo disco, selecione o **Storage type** desejado. Exemplo: `Standard HDD` (mais econômico).
 
@@ -81,6 +91,7 @@ Ao criar um novo disco, selecione o **Storage type** desejado. Exemplo: `Standar
 - Na aba **Disks** da sua VM `az104-vm1`, localize a lista de discos anexados.
 - Clique no ícone de **ejetar** (parece um cabo sendo desconectado) ao lado do disco a ser removido.
 - Confirme a ação.
+  
 
 ⚠️ **Importante:**
 - O disco **não será excluído**, apenas **desanexado** da VM.
