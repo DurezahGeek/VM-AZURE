@@ -81,7 +81,7 @@ No portal, pesquise por **Virtual Machine** e clique em **Create > Azure virtual
 Você verá duas opções principais:
 - 🔴 **Create and attach a new disk:** Criar e anexar um novo disco à VM.
 - 🟢🔧 **Alterar o tipo de armazenamento (Storage Type):** Após anexar um disco, clique sobre o nome dele na aba *Disks* para abrir as configurações. Na opção **Storage type**, você poderá alterar o tipo de disco, como de *Premium SSD* para *Standard HDD*, conforme a necessidade de desempenho e custo.
-![VM](https://github.com/DurezahGeek/VM-AZURE/blob/main/srcAZ/10.png)
+- ![VM](https://github.com/DurezahGeek/VM-AZURE/blob/main/srcAZ/10.png)
 
 Ao criar um novo disco, selecione o **Storage type** desejado. Exemplo: `Standard HDD` (mais econômico).
 
