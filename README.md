@@ -64,7 +64,7 @@ No portal, pesquise por **Virtual Machine** e clique em **Create > Azure virtual
 - Após a criação da VM `az104-vm1`, clique na máquina.
 ![VM](https://github.com/DurezahGeek/VM-AZURE/blob/main/srcAZ/6.png)
 - Acesse o menu lateral e clique em **Size (Tamanho)**.
-![VM](https://github.com/DurezahGeek/VM-AZURE/blob/main/srcAZ/7.png)
+- ![VM](https://github.com/DurezahGeek/VM-AZURE/blob/main/srcAZ/7.png)
 - Será exibido o tamanho atual da VM e uma lista de opções disponíveis.
 ![VM](https://github.com/DurezahGeek/VM-AZURE/blob/main/srcAZ/8.png)
 - Escolha o novo tamanho (ex: o primeiro da lista) e clique em **Resize**.
