@@ -1,4 +1,4 @@
-✅ ## Passo a Passo: Implantação de Máquina Virtual no Azure##
+## ✅ Passo a Passo: Implantação de Máquina Virtual no Azure##
 
 ---
 
