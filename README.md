@@ -11,7 +11,7 @@ Na barra de pesquisa, digite **Resource Group** e clique em **Create**.
 
 
 **Preencha:**
-![VM](https://github.com/DurezahGeek/VM-AZURE/blob/main/srcAZ/2.png)
+- ![VM](https://github.com/DurezahGeek/VM-AZURE/blob/main/srcAZ/2.png)
 - **Subscription (Assinatura):** selecione a sua.
 - **Resource Group name:** exemplo `az104-rg8`.
 - **Region:** escolha uma região próxima dos seus usuários ou exigida pelo projeto (ex: Brazil South).
@@ -27,7 +27,6 @@ No portal, pesquise por **Virtual Machine** e clique em **Create > Azure virtual
 ![VM](https://github.com/DurezahGeek/VM-AZURE/blob/main/srcAZ/3.png)
 
 **Na aba Basics, preencha:**
-- ![VM](https://github.com/DurezahGeek/VM-AZURE/blob/main/srcAZ/4.png)
 - **Subscription:** mesma usada no Resource Group.
 - **Resource group:** selecione `az104-rg8`.
 - **Virtual machine name:** exemplo `az104-vm1`.
@@ -38,6 +37,7 @@ No portal, pesquise por **Virtual Machine** e clique em **Create > Azure virtual
 - **Admin username:** escolha um nome.
 - **Password:** digite e confirme.
 - **Inbound ports:** `None` para segurança ou `Allow selected ports` para RDP/SSH.
+- ![VM](https://github.com/DurezahGeek/VM-AZURE/blob/main/srcAZ/4.png)
 
 ---
 
